@@ -23,46 +23,51 @@
 
 <body>
   <nav class="navbar navbar-default navbar-fixed-top joes-brew-header">
-    <div class="container">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-      </div>
-      <div id="navbar" class="navbar-collapse collapse">
-        <ul class="nav navbar-nav">
-          <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-              <img src="/images/hamburger-button.jpg">
-            </a>
-            <ul class="dropdown-menu joes-brew-menu">
-              <li>
-                <a href="#home">Home</a>
-              </li> 
-              <li>
-                <a href="#brews">Brews</a>
-              </li> 
-              <li>
-                <a href="#location">Location</a>
-              </li>
-              <li>
-                <a href="#contact-us">Contact Us</a>
+      <div class="row">
+        <div class="col-sm-1 col-sm-offset-1">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+          </div>
+          <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                  <img src="/images/hamburger-button.jpg">
+                </a>
+                <ul class="dropdown-menu joes-brew-menu">
+                  <li>
+                    <a href="#home">Home</a>
+                  </li> 
+                  <li>
+                    <a href="#brews">Brews</a>
+                  </li> 
+                  <li>
+                    <a href="#location">Location</a>
+                  </li>
+                  <li>
+                    <a href="#contact-us">Contact Us</a>
+                  </li>
+                </ul>
               </li>
             </ul>
-          </li>
-        </ul>
-      </div><!--/.nav-collapse -->
-    </div>
+          </div><!--/.nav-collapse -->
+        </div>
+        
+        <div class="col-sm-6 col-sm-offset-2">
+          <img src="/images/joes-brew-header-logo.png">
+        </div>
+      </div>
   </nav>
+  
   <a name="home"></a>
   <div class="container">
     <div class="row">
-      <div class="col-md-2">
-      </div>
-      <div class="col-md-10 joes-brew-about">
+      <div class="col-sm-10 col-sm-offset-2 joes-brew-about">
         <img id="joes-brew-about-image" src="/images/joes-brew-about.jpg">
         <div id="text-carousel" class="carousel slide" data-ride="carousel">
           <!-- Wrapper for slides -->
@@ -105,9 +110,7 @@
     </div>
     <a name="brews"></a>
     <div class="row">
-      <div class="col-md-4">
-      </div>
-      <div class="col-md-8 joes-brew-brews">
+      <div class="col-sm-8 col-sm-offset-2 joes-brew-brews">
         <div id="text-carousel-brews" class="carousel slide" data-ride="carousel">
           <!-- Wrapper for slides -->
           <div class="row">
@@ -163,10 +166,8 @@
     </div>
     
     <div class="row">
-      <div class="col-md-4">
+      <div class="col-sm-8 col-sm-offset-2 joes-brew-location">
         <a name="location"></a>
-      </div>
-      <div class="col-md-8 joes-brew-location">
         <h1>JOE'S BREW TAP ROOM</h1>
         <img src="/images/joes-brew-taproom-photo-temp.jpg">
         <h2>ADDRESS, OPERATING HOURS, PHONE NUMER, ETC...</h2>
