@@ -5,10 +5,13 @@
 }
 
 .joes-brew-about {
-  background: url(/images/joes-brew-about-bg.jpg);
-  height: 760px;
-  width: 1084px;
-  margin-top: 170px;
+  background: url(/images/joes-brew-about-bg.jpg) no-repeat center center;
+  margin-top: 200px;
+  
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .joes-brew-brews {
