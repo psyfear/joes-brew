@@ -6,17 +6,12 @@
 
 .joes-brew-about {
   background: url(/images/joes-brew-about-bg.jpg) no-repeat center center;
-  margin-top: 200px;
+  margin-top: 250px;
   
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-}
-
-.joes-brew-brews {
-  height: 867px;
-  width: 1084px;
 }
 
 .joes-brew-menu {
@@ -79,9 +74,13 @@ body {
   height: 75px;
 }
 
+.joes-brew-brews {
+  margin-top: 100px;
+}
+
 .brews-bg {
-  background: url(/images/brews-bg.jpg);
-  width: 1083px;
+  background: url(/images/brews-bg.jpg) no-repeat center center;
+  width: 1084px;
   text-align:center;
 }
 
