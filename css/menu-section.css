@@ -1,0 +1,20 @@
+.joes-brew-header {
+  background-color: #322d2c;
+}
+
+.joes-brew-menu {
+  background-color: #322d2c;
+  font-size: 40px;
+  text-transform: uppercase;
+  padding-right: 1px;
+  margin-right: 1px;
+  color: white;
+}
+
+.dropdown-menu > li > a {
+  color: white;
+}
+
+.dropdown-menu > li > a:hover {
+  background-color: white;
+}

@@ -1,0 +1,21 @@
+.joes-brew-about {
+  background: url(/images/joes-brew-about-bg.jpg) no-repeat center center;
+  margin-top: 250px;
+  
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#joes-brew-about-image {
+  padding-left: 127px;
+  padding-top: 12px;
+  padding-bottom: 60px;
+}
+
+#text-carousel {
+  width: 100%;
+  height: auto;
+  padding: 50px;
+}

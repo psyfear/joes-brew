@@ -1,36 +1,7 @@
 * { font-family: 'Kadwa', serif !important }
 
-.joes-brew-header {
-  background-color: #322d2c;
-}
-
-.joes-brew-about {
-  background: url(/images/joes-brew-about-bg.jpg) no-repeat center center;
-  margin-top: 250px;
-  
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-
-.joes-brew-menu {
-  background-color: #322d2c;
-  font-size: 40px;
-  text-transform: uppercase;
-  padding-right: 1px;
-  margin-right: 1px;
-  color: white;
-}
-  
-#joes-brew-about-image {
-  padding-left: 127px;
-  padding-top: 12px;
-  padding-bottom: 60px;
-}
-
-.li-color {
-  color: white;
+body {
+  background: url(/images/wood-bg.png);
 }
 
 ul li {
@@ -38,67 +9,8 @@ ul li {
   padding: 1px;
 }
 
-body {
-  background: url(/images/wood-bg.png);
-}
-
-.carousel-content {
-  color:black;
-  display:flex;
-  align-items:center;
-}
-
-#text-carousel {
-  width: 100%;
-  height: auto;
-  padding: 50px;
-}
-
-#text-carousel-brews {
-  width: 100%;
-  height: auto;
-  padding: 50px;
-}
-
-.dropdown-menu > li > a {
-  color: white;
-}
-
-.dropdown-menu > li > a:hover {
-  background-color: white;
-}
-
-.carousel-navs {
-  margin-top: 50px;
-  width: 35px;
-  height: 75px;
-}
-
-.joes-brew-brews {
-  margin-top: 100px;
-}
-
-.brews-bg {
-  background: url(/images/brews-bg.jpg) no-repeat center center;
-  width: 1084px;
-  text-align:center;
-}
-
-.brew-image {
-  width: 569px;
-  height: 854px;
-  margin: auto;
-}
-
-.brew-carousel-navs {
-  margin-top: 400px;
-  width: 35px;
-  height: 75px;
-}
-
 .joes-brew-location {
   background: url(/images/brews-bg.jpg);
-  width: 1083px;
   text-align:center;
   margin-top: 100px;
 }

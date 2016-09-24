@@ -1,0 +1,11 @@
+.carousel-content {
+  color:black;
+  display:flex;
+  align-items:center;
+}
+
+.carousel-navs {
+  margin-top: 50px;
+  width: 35px;
+  height: 75px;
+}

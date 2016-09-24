@@ -1,0 +1,27 @@
+#text-carousel-brews {
+  width: 100%;
+  height: auto;
+  padding: 50px;
+}
+
+.joes-brew-brews {
+  margin-top: 100px;
+}
+
+.brews-bg {
+  background: url(/images/brews-bg.jpg) no-repeat center center;
+  width: 1084px;
+  text-align:center;
+}
+
+.brew-image {
+  width: 569px;
+  height: 854px;
+  margin: auto;
+}
+
+.brew-carousel-navs {
+  margin-top: 400px;
+  width: 35px;
+  height: 75px;
+}
